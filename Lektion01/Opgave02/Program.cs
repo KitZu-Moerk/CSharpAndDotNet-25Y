@@ -10,7 +10,7 @@ public class Program
     {
         string json = GetPotterJson();
         
-        // TODO: Deserialiser JSON-strengen til en liste af objekter (opret en model i Opgave02/model mappen)
+        // TODO: Deserialiser JSON-strengen til en liste af objekter (opret en model i OpgaveL02-02/model mappen)
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         List<Charactor> charactors = JsonSerializer.Deserialize<List<Charactor>>(json, options);
         Console.WriteLine(charactors[0].FullName);

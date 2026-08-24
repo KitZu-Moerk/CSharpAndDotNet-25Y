@@ -23,9 +23,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave04", "Lektion01\Opgave04\Opgave04.csproj", "{8CC87D04-5C3D-46B6-99C0-139710EDC9C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave05", "Lektion01\Opgave05\Opgave05.csproj", "{271C593B-0C3F-4A88-9FB0-4CB4F06EB878}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slides", "Slides", "{A66D2C94-6527-4AF3-A4D9-D0ADE3DAC4C1}"
 	ProjectSection(SolutionItems) = preProject
 		Lektion02\Slides\linq.md = Lektion02\Slides\linq.md
+		Lektion02\Slides\extensionMembers.md = Lektion02\Slides\extensionMembers.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lektion02", "Lektion02", "{7C655354-8F22-4776-9C6E-E049DD63A7A0}"
@@ -33,9 +35,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lektion02", "Lektion02", "{
 		Lektion02\opgaver.md = Lektion02\opgaver.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave01", "Lektion02\Opgave01\Opgave01.csproj", "{C528E78C-5938-42B6-BD1F-436A446246B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveL02-01", "Lektion02\OpgaveL02-01\OpgaveL02-01.csproj", "{C528E78C-5938-42B6-BD1F-436A446246B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave02", "Lektion02\Opgave02\Opgave02.csproj", "{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveL02-02", "Lektion02\OpgaveL02-02\OpgaveL02-02.csproj", "{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpgaveL02-03", "Lektion02\OpgaveL02-03\OpgaveL02-03.csproj", "{1F2B9A0E-69DB-498C-8A85-DB42A77E5003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +50,7 @@ Global
 		{A66D2C94-6527-4AF3-A4D9-D0ADE3DAC4C1} = {7C655354-8F22-4776-9C6E-E049DD63A7A0}
 		{C528E78C-5938-42B6-BD1F-436A446246B7} = {7C655354-8F22-4776-9C6E-E049DD63A7A0}
 		{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D} = {7C655354-8F22-4776-9C6E-E049DD63A7A0}
+		{1F2B9A0E-69DB-498C-8A85-DB42A77E5003} = {7C655354-8F22-4776-9C6E-E049DD63A7A0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C528E78C-5938-42B6-BD1F-436A446246B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -56,6 +61,10 @@ Global
 		{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C51F4D1-EEBD-4320-8ABA-1D3474CFEA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2B9A0E-69DB-498C-8A85-DB42A77E5003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2B9A0E-69DB-498C-8A85-DB42A77E5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2B9A0E-69DB-498C-8A85-DB42A77E5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2B9A0E-69DB-498C-8A85-DB42A77E5003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E55F83E1-2DD9-4A94-8634-754F591713A8} = {A323F8D5-1FC1-435D-B9FD-DD856D566B44}
